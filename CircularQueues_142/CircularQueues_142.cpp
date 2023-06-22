@@ -132,7 +132,11 @@ int main() {
 			case '4': {
 				return 0;
 			}
+			default: {
+				cout << "Check for the values entered." << endl;
 			}
+			}
+			
 		}
 	}
 }
