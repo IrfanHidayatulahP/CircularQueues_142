@@ -133,10 +133,13 @@ int main() {
 				return 0;
 			}
 			default: {
-				cout << "Check for the values entered." << endl;
+				cout << "Invalid option!" << endl;
 			}
 			}
-			
+		}
+		catch (exception& e) {
+			cout << "Check for the values entered." << endl;
 		}
 	}
+
 }
